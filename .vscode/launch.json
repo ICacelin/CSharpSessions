@@ -10,11 +10,12 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/bin/Debug/net8.0/FirstSession.dll",
+            "program": "${workspaceFolder}/FlowOfExecution/bin/Debug/net8.0/FlowOfExecution.dll",
             "args": [],
-            "cwd": "${workspaceFolder}",
+            "cwd": "${workspaceFolder}/FlowOfExecution",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
+            "logging": {"moduleLoad": false},
             "stopAtEntry": false
         },
         {
